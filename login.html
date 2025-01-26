@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+     <h1>LOGIN</h1>
+    <div class="main">
+    <form>
+    <lable class="login-form" class="form">Name</lable>
+    <input type="text" required pattern="[a-zA-Z]{3,10}" class="login" class="form" placeholder="Name"> 
+    <br><br>
+    <label class="login-form">phone Number</label>
+    <input type="number" required pattern="^[6-9]\d{8}[3-9]$" class="login" id="phno" placeholder="Phone Number">
+    <br><br>
+    <label class="login-form">Mail</label>
+    <input type="" required pattern="^[a-zA-Z\d]{3-8}@{1}[a-zA-Z]{8}.[a-z]{3}$" class="login" placeholder="Gmail">
+    <br><br>
+    <input type="submit" id="submit">
+  </form>
+</div>
+
+</body>
+</html>
