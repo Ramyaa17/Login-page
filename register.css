@@ -1,0 +1,25 @@
+.main{
+    width: 300px;
+    height: 180px;
+    border: 3px solid rgb(49, 20, 239);
+    margin-left: 500px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(215, 214, 239);
+    padding-top: 20px;
+}
+h1{
+    margin-left: 550px;
+    margin-top: 150px; 
+    color: mediumorchid;
+    
+}
+.login{
+    border: 1px solid rgb(31, 31, 31);
+}
+form>:invalid:required{
+    border:1px solid red;
+}
+form>:valid:required{
+    border:1px solid green;
+}
