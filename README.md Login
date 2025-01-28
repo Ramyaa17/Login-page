@@ -1,0 +1,26 @@
+
+Login Form
+This is a basic login form created using HTML and CSS. It includes fields for Name, Phone Number, and Email. The form also uses HTML5 validation to ensure the fields are filled in correctly.
+
+Features:
+Name field: Allows only alphabetic characters (between 3 and 10 characters).
+Phone Number field: Requires a valid phone number that starts with digits from 6-9, followed by 9 more digits.
+Email field: Accepts emails with a simple regex for Gmail-like addresses.
+Submit button: Triggers form submission after validation.
+Technologies Used:
+HTML5
+CSS3 (for styling)
+File Structure:
+bash
+Copy
+- login.html      # Main HTML file for the login form
+- login.css       # Stylesheet for the login form
+- README.md       # This readme file
+How to Use:
+Clone this repository or download the files.
+Open the index.html file in your browser.
+Fill in the required fields:
+Name: (3-10 characters, alphabetic)
+Phone Number: (valid phone number starting with digits between 6-9)
+Email: (Gmail-like format)
+Click on the Submit button after filling in all fields.
